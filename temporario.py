@@ -10,6 +10,14 @@ st.multiselect (
 st.color_picker("Escolha a Cor", "#00f900")
 st.feedback("stars")
 
+df = pd.DataFrame (
+  [
+    {"command": "st.selectbox", "rating": 4, "is_widget": True},
+    {"command": "st.balloons", "rating": 5, "is_widget": False},
+    {"command": "st.time_input", "rating": 3, "is_widget": True},
+  ]
+)
+
 st.toggle ("Toggle")
 st.text_area ("Text de caixa Grande")
 st.text_input ("Text ants da Caixa", "Texto fraco na Caixa")
