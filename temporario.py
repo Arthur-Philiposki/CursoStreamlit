@@ -1,3 +1,6 @@
 import streamlit as st
 
-st.button("Botão Salvar")
+st.header ("Cabeçalho")
+st.toggle ("Toggle")
+st.button ("Botão Salvar")
+
