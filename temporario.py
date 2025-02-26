@@ -27,12 +27,12 @@ selection = st.pills("Directions", options, selection_mode="multi")
 
 st.button ("Botão Salvar")
 
-df = pd.DataFrame (
+df = st.DataFrame (
   [
     {"command": "st.selectbox", "rating": 4, "is_widget": True},
     {"command": "st.balloons", "rating": 5, "is_widget": False},
     {"command": "st.time_input", "rating": 3, "is_widget": True},
   ]
-                  )
+  )
 edited_df = st.data_editor(df)
 
