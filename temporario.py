@@ -15,5 +15,12 @@ st.selectbox (
   'Qual a sua cor favorita?', 
   ('Azul', 'Vermelho', 'Verde'))
 
+st.checkbox ('Sorvete')
+st.checkbox ('Banana')
+st.checkbox ('Chocolate')
+
+options = ["Norte", "Sul", "Leste", "Oeste"]
+selection = st.pills("Directions", options, selection_mode="multi")
+
 st.button ("Botão Salvar")
 
