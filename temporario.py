@@ -7,6 +7,9 @@ st.multiselect (
   ['Verde', 'Amarelo', 'Vermelho', 'Azul'],
   ['Amarelo', 'Vermelho',])
 
+st.color_picker("Escolha a Cor", "#00f900")
+st.feedback("stars")
+
 st.toggle ("Toggle")
 st.text_area ("Text de caixa Grande")
 st.text_input ("Text ants da Caixa", "Texto fraco na Caixa")
