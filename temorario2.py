@@ -4,10 +4,18 @@ st.header ("Aluno")
 
 st.text_input ("Nome", "Digite o nome do Aluno")
 
-st.text_input ("CPF", "Digite o CPF do Aluno")
+number = st.number_input(
+    "Numero do CPF", value=None, placeholder="Digite o CPF do Aluno..."
+)
 
-st.text_input ("RG", "Digite o RG do Aluno")
 
-st.text_input ("RA", "Digite o RA do Aluno")
+number = st.number_input(
+    "Numero do RG", value=None, placeholder="Digite o RG do Aluno..."
+)
+
+
+number = st.number_input(
+    "Numero do RA", value=None, placeholder="Digite o RA do Aluno..."
+)
 
 st.button ("Salvar")
