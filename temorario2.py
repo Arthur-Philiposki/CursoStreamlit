@@ -18,4 +18,6 @@ number = st.number_input(
     "Numero do RA", value=None, placeholder="Digite o RA do Aluno..."
 )
 
+st.text_input ("Data Nascimento", "Digite a Data de Nascimento")
+
 st.button ("Salvar")
